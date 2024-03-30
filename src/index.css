@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Truculenta:opsz,wdth,wght@12..72,112.5,100..900&display=swap');
+
+
+
+* {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.homee3{
+background: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+
+li {
+  list-style: none;
+}
+
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+  border: none;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+}
+.card-reviews {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.total-reviews {
+  margin-left: 5px; /* Add some space between stars and the total reviews */
+}
+.footer {
+  background: url(./images/footer.svg) top center no-repeat;
+  background-size: cover;
+}
+
+.workp {
+  background: linear-gradient(rgba(2,2,2,.7),rgba(0,0,0,.7)),url(https://cdn.pixabay.com/photo/2016/03/07/21/12/grass-1243082_1280.jpg) fixed center center;
+}
+.process-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure the box fills its parent container */
+}
+.neomorphic-box {
+  background-color: rgb(255, 255, 255); /* Black background */
+  color: #000000; /* White text */
+  border-radius: 20px; /* Rounded corners */
+  padding: 30px; /* Padding */
+  margin: 30px 30px; /* Margin */
+  transition: all 0.3s ease; /* Smooth transition */
+  width: 270px; /* Fixed width */
 }
