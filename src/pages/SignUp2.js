@@ -62,7 +62,7 @@ function Signup() {
   useEffect(() => {
     checkIfWalletIsConnected();
   }, []);
-  
+
   const navigate = useNavigate();
   const [values, setValues] = useState({
     name: "",
@@ -140,16 +140,17 @@ function Signup() {
               ) : (
                 <button
                   onClick={handleClick}
-                  style={{marginTop:'10px' }}
+                  style={{ marginTop: '10px' }}
                 >
                   {currentAccount ? (
                     <span className="text-black-500">{currentAccount}</span>
                   ) : (
                     <div>
-                      <div id="signupButton" className="text-white bg-[#075F07] ml-2 hover:bg-green-600 inline-flex items-center justify-center w-auto px-5 py-2 shadow-xl rounded-xl" onClick={connectWallet}>
-                        Connect Wallet <img style={{width:'40px'}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png"/>
+                      <div id="signupButton" style={{ color: 'white', backgroundColor: '#075F07', marginLeft: '2px', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 'auto', padding: '2px 5px', boxShadow: '0 0 10px rgba(0,0,0,0.2)', borderRadius: '10px' }} onClick={connectWallet}>
+                        Connect Wallet <img style={{ width: '40px' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" />
                       </div>
-                      </div>
+                    </div>
+
                   )}
                 </button>
               )}
@@ -169,7 +170,15 @@ function Signup() {
           </div>
         </div>
         <div className="right">
-          <img alt="card img" className="w-[530px] h-[660px] rounded-t float-right duration-1000 py-1 rounded-tr-[20px] rounded-br-[20px]" src={heroImg} />
+          <img alt="card img" style={{
+            width: '530px',
+            height: '660px',
+            borderRadius: '0 20px 20px 0',
+            float: 'right',
+            transitionDuration: '1000ms',
+            paddingTop: '1px'
+          }}
+            src={heroImg} />
         </div>
       </div>
     </>

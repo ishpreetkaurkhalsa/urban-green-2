@@ -112,7 +112,14 @@ function Signup() {
           </div>
         </div>
         <div className="right">
-          <img alt="card img" className="w-[530px] h-[660px] rounded-t float-right duration-1000 py-1 rounded-tr-[20px] rounded-br-[20px]" src={heroImg} />
+          <img alt="card img"  style={{
+  width: '530px',
+  height: '650px',
+  borderRadius: '0 20px 20px 0',
+  float: 'right',
+  transitionDuration: '1000ms',
+  paddingTop: '1px'
+}} src={heroImg} />
         </div>
       </div>
     </>

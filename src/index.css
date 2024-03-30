@@ -7,10 +7,12 @@
 
 
 * {
-  font-family: "Exo 2", sans-serif;
+  /* font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal;
+  font-style: normal; */
+  margin:0;padding: 0; box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
 }
 
 .homee3{

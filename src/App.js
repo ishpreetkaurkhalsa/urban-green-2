@@ -12,6 +12,7 @@ import Home from './pages/Home';//
 import Home2 from './pages/Home2';//
 import Home4 from './landlord/Home4.js';//
 import Home3 from './buyer/Home3.js';
+import Trial from './pages/Trial.js';
 import Contact from './pages/Contact';//
 import DemoProduct from './pages/DemoProduct';
 import {useDocTitle} from './components/CustomHook';
@@ -54,7 +55,7 @@ function App() {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/login" element={<LogIn />} />
             <Route path="/signup2" element={<SignUp2 />} />
-           
+            <Route path="/trial" element={<Trial />} />
           </Routes>
         </ScrollToTop>
       </Router>

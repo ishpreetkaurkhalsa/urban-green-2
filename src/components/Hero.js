@@ -1,10 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import NavBar from './Navbar/NavBar';
 import heroImg from '../images/right-img13.jpeg';
 import { CiSearch } from "react-icons/ci";
 
 const Hero = () => {
+    const navigate = useNavigate();
+    const handleSearch =()=>{
+        navigate("/buyer");
+    }
     return (
         <div className="container" style={{
             display: 'grid',
@@ -40,7 +44,7 @@ const Hero = () => {
         <img src='neomorph-left.png' className=' absolute w-[241px] top-[425px] right-28 backdrop-blur-sm'  />
         <div>
             <input type="text" name="text" placeholder="search locations.." className="text-[18px] font-light text-black absolute w-[400px] h-[40px] px-3 z-[1000] top-7 right-48 backdrop-blur-3 opacity-80 outline-none rounded-full "/>
-            <CiSearch className='absolute w-[40px] h-[40px] mx-[0.2px] px-2 z-[1000] top-7 right-48  outline-none rounded-full'/>
+            <CiSearch style={{ cursor: 'pointer' }} onClick={handleSearch} className='absolute w-[40px] h-[40px] mx-[0.2px] px-2 z-[1000] top-7 right-48  outline-none rounded-full'/>
         </div>
     </div>
 </div>
