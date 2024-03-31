@@ -26,13 +26,18 @@ In this example, UrbanGreens facilitates collaboration and resource-sharing amon
 ![web](https://github.com/ishpreetkaurkhalsa/urban-green-2/assets/107416261/f4c35316-cb55-4bdc-80df-91f98ff46df4)
 <br/>
 <h1>Anon Aadhaar</h1>
-![web](https://github.com/ishpreetkaurkhalsa/urban-green-2/assets/113664759/03d78497-7ba3-4525-8737-81dba5900d0f)
-<br />
+
+![anon](https://github.com/ishpreetkaurkhalsa/urban-green-2/assets/107416261/9519708f-af18-4688-832a-908fa387d307)
+
 <h1>Arweave</h1>
-![WhatsApp Image 2024-03-31 at 05 51 04_96c40697](https://github.com/ishpreetkaurkhalsa/urban-green-2/assets/113664759/1709f77b-82a0-4b67-a3cb-c8391a9ef713)
+
+![arweave](https://github.com/ishpreetkaurkhalsa/urban-green-2/assets/107416261/0bbdb43a-4bf5-464b-81d2-9c79193dd6fe)
+
 <br/>
 <h1>The Graph</h1>
-![WhatsApp Image 2024-03-31 at 06 47 46_2193d6f0](https://github.com/ishpreetkaurkhalsa/urban-green-2/assets/113664759/79e11ddd-70a2-4c73-b869-8546c018a4df)
+
+![subgraph](https://github.com/ishpreetkaurkhalsa/urban-green-2/assets/107416261/4692abe7-2cc6-418a-87b7-89b87448ee72)
+
 <br/>
 
 
