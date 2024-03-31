@@ -32,6 +32,9 @@ const NavLinks = () => {
             <HashLink onClick={handleSignOut} id="signupButton" className="text-white bg-green-600 hover:bg-green-600 inline-flex items-center justify-center w-auto px-5 py-2 shadow-xl rounded-xl" smooth to="/login">
                 Log Out
             </HashLink>
+            <div className="text-white bg-green-600 hover:bg-green-600 inline-flex items-center justify-center w-auto px-5 py-2 shadow-xl rounded-xl" smooth to="/login">
+                    Chat With Us
+            </div>
         </>
     )
 }
