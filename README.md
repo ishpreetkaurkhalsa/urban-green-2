@@ -1,6 +1,6 @@
 # UrbanGreens
-NOTE: Smartcontract address on Avail: 0x3ACd479d5e0A7BF2d11c84690277a9a92795f06d
-Our own Subgraphs: https://github.com/Tarun-k-Gupta/graphMumbai 
+NOTE: Smartcontract address on Avail: 0x3ACd479d5e0A7BF2d11c84690277a9a92795f06d 
+### Subgraphs: https://github.com/Tarun-k-Gupta/graphMumbai 
 
 ## Problem Statement: 
 In our cities, there's vast potential in idle rooftops and vacant lots, yet they remain largely unused. Simultaneously, high unemployment rates deepen social and economic divides. We face the challenge of tapping into these underutilized urban spaces for sustainable agriculture and job creation. What we need is a decentralized marketplace that connects individuals with landowners, leveraging blockchain to unlock opportunities and address pressing urban challenges. Finding suitable spaces for innovative farming methods like hydroponics and aeroponics is particularly challenging. Additionally, securing lease agreements between buyers and landlords poses another hurdle. Our focus is on addressing these issues by leveraging blockchain technology.
