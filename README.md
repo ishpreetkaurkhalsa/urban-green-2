@@ -1,6 +1,6 @@
-#UrbanGreens
+UrbanGreens
 
-##Problem Statement: In our cities, there's vast potential in idle rooftops and vacant lots, yet they remain largely unused. Simultaneously, high unemployment rates deepen social and economic divides. We face the challenge of tapping into these underutilized urban spaces for sustainable agriculture and job creation. What we need is a decentralized marketplace that connects individuals with landowners, leveraging blockchain to unlock opportunities and address pressing urban challenges. Finding suitable spaces for innovative farming methods like hydroponics and aeroponics is particularly challenging. Additionally, securing lease agreements between buyers and landlords poses another hurdle. Our focus is on addressing these issues by leveraging blockchain technology.
+Problem Statement: In our cities, there's vast potential in idle rooftops and vacant lots, yet they remain largely unused. Simultaneously, high unemployment rates deepen social and economic divides. We face the challenge of tapping into these underutilized urban spaces for sustainable agriculture and job creation. What we need is a decentralized marketplace that connects individuals with landowners, leveraging blockchain to unlock opportunities and address pressing urban challenges. Finding suitable spaces for innovative farming methods like hydroponics and aeroponics is particularly challenging. Additionally, securing lease agreements between buyers and landlords poses another hurdle. Our focus is on addressing these issues by leveraging blockchain technology.
 
 Solution:
 
@@ -16,8 +16,8 @@ Through UrbanGreens' fractional ownership feature, Ishpreet, Manvi, and Tarun jo
 
 Utilizing hydroponics and aeroponics techniques, Ishpreet, Manvi, and Tarun cultivate a variety of crops on the rooftop, maximizing its agricultural potential. Meanwhile, Vedika receives a steady income from leasing her underutilized space, contributing to her financial stability.
 
-
-
 As a result, Vedika's rooftop is no longer idle, but a productive urban farm, addressing the challenge of underutilized urban spaces. Furthermore, Ishpreet, Manvi, and Tarun create job opportunities for themselves and potentially others, mitigating unemployment rates in the city.
 
 In this example, UrbanGreens facilitates collaboration and resource-sharing among stakeholders, effectively transforming underutilized urban spaces into opportunities for sustainable agriculture and economic growth.
+
+![web](https://github.com/ishpreetkaurkhalsa/urban-green-2/assets/107416261/f4c35316-cb55-4bdc-80df-91f98ff46df4)
