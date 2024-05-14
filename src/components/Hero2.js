@@ -6,6 +6,10 @@ import { CiSearch } from "react-icons/ci";
 import { HashLink } from 'react-router-hash-link';
 
 const Hero2 = () => {
+    const navigate = useNavigate();
+    const handleSearch =()=>{
+        navigate("/buyer");
+    }
     return (
         <div className="container" style={{
             display: 'grid',
