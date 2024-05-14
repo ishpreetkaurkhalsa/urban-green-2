@@ -5,7 +5,7 @@ import heroImg from '../images/right-img13.jpeg';
 import { CiSearch } from "react-icons/ci";
 import { HashLink } from 'react-router-hash-link';
 
-const Hero = () => {
+const Hero2 = () => {
     return (
         <div className="container" style={{
             display: 'grid',
@@ -57,4 +57,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default Hero2;
